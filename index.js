@@ -100,32 +100,4 @@ function validate(){
 
 
 
- // let regexp = /^[A-Za-z0-9]+(['\.-]?[A-Za-z0-9]+?)*@[A-Za-z0-9]+([\.-]?[A-Za-z0-9]+)*(\.[A-Za-z0-9]{2,3})+$/
-// // function validatephone(){
-//     let phonenoexp = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
-//     if(phonenoexp.test(phoneno.value)){
-//         errorphone.innerHTML = "valid";
-//         errorphone.style.color = "green";
-//         return true;
-//     }
-//     else{
-//         errorphone.innerHTML = "Invalid";
-//         errorphone.style.color = "red";
-//         return false;
-//     }
-// }
-
-// function submit(){
-//     debugger;
-//     let phone = validatephone();
-//     let email = validate();
-//     console.log(phone);
-//     console.log(email);
-//     if((phone==true) && (email==true))
-//     {
-//         return true;
-//     }
-//     else{
-//         return false;
-//     }
-// }
+ 
