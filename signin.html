@@ -43,7 +43,8 @@
        <div class="row">
            <div class="col-md-4 col-sm-4 col-xs-12"></div>
            <div class="col-md-4 col-sm-4 col-xs-12">
-            <form class="form-container">
+            <form class="form-container" action="index.html" onsubmit="return validate()">
+              
                 <h1>Sign In</h1>
                 <div class="form-group">
                   <label for="exampleInputEmail1">Username</label>
@@ -52,7 +53,8 @@
                 
                 <div class="form-group">
                   <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password">
+                  <input type="password" class="form-control" id="pwd" placeholder="password">
+                  <label for="error" id="errorpswd"></label>
                 </div>
                 <div class="checkbox">
                     <label>
@@ -69,5 +71,6 @@
            <div class="col-md-4 col-sm-4 col-xs-12"></div>
        </div>
    </div>
+   <script src="signin.js"></script>
 </body>
 </html>
